@@ -74,7 +74,25 @@ The current system enables registered users to perform a variety of actions.
 The proposed system provides the same functionality as the current system, with minor improvements such as design and usability.
 
 ##### B. Functional requirements
-Buffering mechanism
+1. Register – People have an option to register themselves as users.
+2. Post stories – Registered users have the option to post stories.
+3. Comments – Allows registered users, to write comments on stories, and other’s comments.
+4. Vote – Registered users may up-vote published stories and comments. Once 500 karma points have been accumulated, the user is allowed to down-vote content.
+5. Karma points – Karma points are calculated as the number of up-votes a given user's content has received minus the number of down-votes.
+6. Spam – Regardless of karma, all users have the option to flag submitted content as spam.
+7. Front-end overview of number of comments.  
+8. Front-end Overview of stories. 
+9. Front-end who is the author of the story.
+10. Front-end overview of the blog website.
+11. Rest-API Service.
+12. Jobs.
+13. Ask’s.
+14. Show’s.
+15. Front-end Amount of time a story has been online.
+16. Front-end Be able to show/hide a story.
+17. Front-end Ranking system of stories.
+18. Buffering mechanism.
+
 
 ##### C. Nonfunctional requirements
 
