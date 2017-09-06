@@ -1,4 +1,4 @@
-# Requirements Analysis Document
+# Requirements Analysis Document (Hacker News)
 
 1. **Introduction**
 	- A. Purpose of the system
@@ -120,5 +120,3 @@ Users will use the REST-API
 
 ###### b. Use case model
 *Mangler*
-
-# HackerNews
