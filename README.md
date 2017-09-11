@@ -32,6 +32,7 @@
 ---
 
 ### 1. Introduction
+In this section we will try to establish the essentials, for the system and an lead-in to what some of the most fundamental functionality, that has to be present in the system. 
 
 ##### A. Purpose of the system
 To enable discussions and opinions for users by letting them create stories, which others may comment on, and if they choose to, up-vote/down-vote. 
@@ -47,9 +48,11 @@ We have an idea about, that there will an _buffer mechanism_ between our system 
 There will be no changes in the front-end/design, meaning that the design of the front-end will be exactly be the same as the current front-end. 
 
 ##### C. Objectives and success criteria of the project
-__Objectives__ -  is to develop a clear understanding at a high-level how functionality is performed in the current system (HackerNews). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”. One very important objective is that team is working well together. 
+__Objectives__&__Success Criteria__  -  is to develop a clear understanding at a high-level how functionality is performed in the current system (HackerNews). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”. One very important objective is that team members are working together and, there is an continouous communication so that there is provided trust between developers, concerns to be addressed, and ideas to be discussed. 
 
-__Success Criteria__ - A documented inventory of current requirements and functionality including non-functional requirements. It also important that there is an functioning team, where the level of productivity is high, therefore there are rolles giving to each member of the team and these roles has to be taken very seriously. The team work is a key factor to get the project up and running. Because of the tight scheduling, we have made a team contract to ensure that everybody meets on time and every deadline is meet, if these team requirements are not respected there will consequences. In worst case scenario the individuel will be thrown out of the group.  
+A documented inventory of current requirements and functionality including non-functional requirements. It also important that there is an functioning team, where the level of productivity is high, therefore there are rolles giving to each member of the team and these roles has to be taken very seriously. The team work is a key factor to get the project up and running. 
+
+Because of the tight scheduling and , we have made a team contract to ensure that everybody meets on time and every deadline is meet, if these team requirements are not respected there will consequences. In worst case scenario the individuel will be thrown out of the group.  
 
 ##### D. Definitions, acronyms, and abbreviations
 *Mangler*
@@ -77,6 +80,7 @@ As an additional service Hacker News also came with an API, wich give users free
 ---
 
 ### 3. Proposed system
+The proposed system is an exact clone of the current, meaning that it is the exact same functionality and design.  
 
 ##### A. Overview
 The proposed system provides the same functionality as the current system, with minor improvements such as design and usability.
@@ -93,12 +97,12 @@ The proposed system provides the same functionality as the current system, with 
 9. Front-end who is the author of the story.
 10. Front-end overview of the blog website.
 11. Rest-API Service.
-12. Jobs.
-13. Ask’s.
-14. Show’s.
-15. Front-end Amount of time a story has been online.
-16. Front-end Be able to show/hide a story.
-17. Front-end Ranking system of stories.
+12. Job’s functionality in the nav-bar.
+13. Ask’s functionality in the nav-bar.
+14. Show’s functionality in the nav-bar.
+15. Front-end, Amount of time a story has been online.
+16. Front-end, Be able to show/hide a story.
+17. Front-end, Ranking system of stories.
 18. Buffering mechanism.
 
 
@@ -108,12 +112,11 @@ The proposed system provides the same functionality as the current system, with 
 
 The button convention is important, the size should be the same size as the current system has.
 
-1. It should be possible to accomplish any given task with just the keyboard, without the mouse, as the current system. 
+1. It should be possible to accomplish any given task with just the keyboard, and the mouse, as the current system. 
 
 2. The use of the API should be as the current system. 
 
 3. All delays in the system longer than .5 seconds will produce a dialog box that says "Please wait."
-
 
 ###### b. Reliability
 We are ensuring that there is no data loss, if the system for some reason is down. We will plant an extra database, between the system and the simulator ensuring that there will not be any data loss.
