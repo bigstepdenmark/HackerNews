@@ -61,6 +61,7 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 [Scope of the system](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
 [Hacker News](https://news.ycombinator.com)
 [Usability](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html)
+[Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
 
 ##### F. Overview
 *Mangler*
@@ -113,11 +114,10 @@ The proposed system provides the same functionality as the current system, with 
 The usability is more has to be more or less the same as the current system. Meaning that the button convention should be the same, and the responds time(in milliseconds) for the buttons should be the same, etc. _Usability testing_ would be an effeicient way to ensure that our system works as the current system. 
 
 ###### b. Reliability
-We are ensuring that there is no data loss, if the system for some reason is down. We will plant an _buffer mechanism_, between the system and the simulator ensuring that there will not be any data loss.  
+We are ensuring that there is no data loss, if the system for some reason is down. We will plant an _buffer mechanism_, between the system and the simulator ensuring that there will not be any data loss. We can also do some functional testing, to ensure that some predictable failure or human errors is not happening, in that way the system will be more Reliable. 
 
 ###### c. Performance
-The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter. When using the API, the users should be able post their blog to the system with a good load time.
-
+The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter. When using the API, the users should be able post their blog to the system without it's slowing to much. 
 
 ###### d. Supportability
 Users will use the REST-API
