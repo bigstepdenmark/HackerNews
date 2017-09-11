@@ -68,6 +68,12 @@ The current system enables registered users to perform a variety of actions.
 * Comment on existing stories
 * Up/down vote stories
 
+Hacker News is a news forum, where you can publish and read stories from other websites. The stories and comments on Hacker News can only be published by registered users.
+
+Registered users can also up and down vote stories on Hacker News, however it's required to have at least 500 Karma points before user can down-vote stories. Karma points is calculated using up-votes, which came from other users. All down-votes from users can be marked as SPAM.
+
+As an additional service Hacker News also came with an API, wich give users free read access.
+
 ---
 
 ### 3. Proposed system
@@ -139,4 +145,4 @@ Users will use the REST-API
 *Mangler*
 
 ###### b. Use case model
-*Mangler*
+![Use Case](systemmodels/usecase.png)
