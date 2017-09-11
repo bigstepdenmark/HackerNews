@@ -34,20 +34,22 @@
 ### 1. Introduction
 
 ##### A. Purpose of the system
-To enable discussions for users by letting them create stories, which others may comment on, and if they choose to, up-vote/down-vote.
+To enable discussions and opinions for users by letting them create stories, which others may comment on, and if they choose to, up-vote/down-vote. 
+Another important part of the system is users can use an API that we have build, to post a specific storie from their website, an again people will be able to comment on these specific stories.  
 
 ##### B. Scope of the system
-Scope of the system, the scope of the system is making sure that we have all the requirements done, and also to make sure that it is a clone of the current system. We will also need a database, for where we can store our data.
+The scope of the system is making sure that we have all the requirements done and implemented, and also to make sure that it is a clone of the current system. We will also need a database, for where there can be stored data. 
 
-There will also be an API where a blogger can use our API to post whatever blog the blogger wants to post. A server is need where the database will be, and also our API so that an blogger can use it in the public.
+There will also be an API where a user can use the API to post whatever storie the user wants to post. A server is needed where the database and the API will be located, so the public can access it. 
 
-We have an idea about, that there will an database between our system and the simulator, the reason for that is if the system we have build goes down for some reason and there some sort of transaction going with some important data then that can be stored, and as soon as the system has the right state the transaction will be successful.
+We have an idea about, that there will an _buffer mechanism_ between our system and the simulator, the reason for that is if the system we have build goes down for some reason and there some sort of transaction going with some important data then that can be stored, and as soon as the system has the right state the transaction will be successful.
+
+There will be no changes in the front-end/design, meaning that the design of the front-end will be exactly be the same as the current front-end. 
 
 ##### C. Objectives and success criteria of the project
-__Objectives__ -  is to develop a clear understanding at a high-level how functionality is performed in the current system (HackerNews). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”. One very important objective is that team is working well together.
+__Objectives__ -  is to develop a clear understanding at a high-level how functionality is performed in the current system (HackerNews). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”. One very important objective is that team is working well together. 
 
-__Success Criteria__ - A documented inventory of current requirements and functionality including non-functional requirements. It also important that there is an functioning team, where the level of productivity is high, therefore there are rolles giving to each member of the team and these roles has to be taken very seriously. The team work is a key factor to get the project up and running.
-
+__Success Criteria__ - A documented inventory of current requirements and functionality including non-functional requirements. It also important that there is an functioning team, where the level of productivity is high, therefore there are rolles giving to each member of the team and these roles has to be taken very seriously. The team work is a key factor to get the project up and running. Because of the tight scheduling, we have made a team contract to ensure that everybody meets on time and every deadline is meet, if these team requirements are not respected there will consequences. In worst case scenario the individuel will be thrown out of the group.  
 
 ##### D. Definitions, acronyms, and abbreviations
 *Mangler*
