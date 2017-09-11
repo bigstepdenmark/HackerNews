@@ -32,7 +32,7 @@
 ---
 
 ### 1. Introduction
-In this section we will try to establish the essentials, for the system and an lead-in to what some of the most fundamental functionality, that has to be present in the system. 
+In this section we will try to establish the essentials, for the system and an lead-in to what some of the most fundamental functionality that has to be present in the system. 
 
 ##### A. Purpose of the system
 To enable discussions and opinions for users by letting them create stories, which others may comment on, and if they choose to, up-vote/down-vote. 
@@ -58,7 +58,9 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 *Mangler*
 
 ##### E. References
-*Mangler*
+[Scope of the system](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
+[Hacker News](https://news.ycombinator.com)
+[Usability](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html)
 
 ##### F. Overview
 *Mangler*
@@ -70,12 +72,11 @@ The current system enables registered users to perform a variety of actions.
 * Post stories
 * Comment on existing stories
 * Up/down vote stories
-
+																*Description of the current system*
 Hacker News is a news forum, where you can publish and read stories from other websites. The stories and comments on Hacker News can only be published by registered users.
-
 Registered users can also up and down vote stories on Hacker News, however it's required to have at least 500 Karma points before user can down-vote stories. Karma points is calculated using up-votes, which came from other users. All down-votes from users can be marked as SPAM.
 
-As an additional service Hacker News also came with an API, wich give users free read access.
+As an additional service Hacker News also comes with an API, which gives users free read access.
 
 ---
 
@@ -109,21 +110,13 @@ The proposed system provides the same functionality as the current system, with 
 ##### C. Nonfunctional requirements
 
 ###### a. Usability
-
-The button convention is important, the size should be the same size as the current system has.
-
-1. It should be possible to accomplish any given task with just the keyboard, and the mouse, as the current system. 
-
-2. The use of the API should be as the current system. 
-
-3. All delays in the system longer than .5 seconds will produce a dialog box that says "Please wait."
+The usability is more has to be more or less the same as the current system. Meaning that the button convention should be the same, and the responds time(in milliseconds) for the buttons should be the same, etc. _Usability testing_ would be an effeicient way to ensure that our system works as the current system. 
 
 ###### b. Reliability
-We are ensuring that there is no data loss, if the system for some reason is down. We will plant an extra database, between the system and the simulator ensuring that there will not be any data loss.
-
+We are ensuring that there is no data loss, if the system for some reason is down. We will plant an _buffer mechanism_, between the system and the simulator ensuring that there will not be any data loss.  
 
 ###### c. Performance
-The system should be working under stress, meaning that there should not occur any problems if lot users using the system. This can be tested using JMeter. When using the API, the users should be able post their blog to the system with a good load time.
+The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter. When using the API, the users should be able post their blog to the system with a good load time.
 
 
 ###### d. Supportability
