@@ -62,6 +62,7 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 [Hacker News](https://news.ycombinator.com)
 [Usability](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html)
 [Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
+[Performance](https://www.slideshare.net/ianmcdonald/non-functional-performance-requirements-v01)
 
 ##### F. Overview
 *Mangler*
@@ -117,7 +118,7 @@ The usability is more has to be more or less the same as the current system. Mea
 We are ensuring that there is no data loss, if the system for some reason is down. We will plant an _buffer mechanism_, between the system and the simulator ensuring that there will not be any data loss. We can also do some functional testing, to ensure that some predictable failure or human errors is not happening, in that way the system will be more Reliable. 
 
 ###### c. Performance
-The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter. When using the API, the users should be able post their blog to the system without it's slowing to much. 
+The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter, we can do whats called a stress test. Stress test could be done at stress periods, in these stress periods(months) there can special days where the system is extra busy, meaning there is extra load time. We can also compare the current system with the new system, to find out which one of them er performing best, or we can measure what part of the system is performing badly.  
 
 ###### d. Supportability
 Users will use the REST-API
