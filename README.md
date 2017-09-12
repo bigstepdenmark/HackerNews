@@ -1,4 +1,4 @@
-# Requirements Analysis Document (Hacker News)
+# Requirements Analysis Document For (Hacker News)
 
 1. **Introduction**
 	- A. Purpose of the system
@@ -63,6 +63,8 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 [Usability](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html)
 [Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
 [Performance](https://www.slideshare.net/ianmcdonald/non-functional-performance-requirements-v01)
+[Performance](http://istqbexamcertification.com/what-is-non-functional-testing-testing-of-software-product-characteristics/)
+[Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
 
 ##### F. Overview
 *Mangler*
@@ -107,6 +109,17 @@ The proposed system provides the same functionality as the current system, with 
 16. Front-end, Be able to show/hide a story.
 17. Front-end, Ranking system of stories.
 18. Buffering mechanism.
+19. Footer Guidelines.
+20. Footer FAQ.
+21. Footer Support.
+22. Footer Security. 
+23. Footer Lists. 
+24. Footer Bookmarklet.
+25. Footer DMCA. 
+26. Footer Apply to YC. 
+27. Footer Contact. 
+28. Search bar, to search content on the website.
+29. Forgot password functionality. 
 
 
 ##### C. Nonfunctional requirements
@@ -121,7 +134,7 @@ We are ensuring that there is no data loss, if the system for some reason is dow
 The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter, we can do whats called a stress test. Stress test could be done at stress periods, in these stress periods(months) there can special days where the system is extra busy, meaning there is extra load time. We can also compare the current system with the new system, to find out which one of them er performing best, or we can measure what part of the system is performing badly.  
 
 ###### d. Supportability
-Users will use the REST-API
+The users will have the support of an _REST-API_, to read different kind of data. The system that we are building has different kind of technical support, user will be able to read _guidelines_, _FAQ(Frequently Asked Quistions)_, _Support_, _Contact_ and a _Searchbar_. Other services we planning on making for us as a team, are different kind of documentations, this one being one of them, and a test documentation(test cases, test plans). We will be using an framework to build the system, that will be great service for us as developer.  
 
 ###### e. Implementation
 *Mangler*
