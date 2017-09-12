@@ -59,11 +59,17 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 
 ##### E. References
 [Scope of the system](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
+
 [Hacker News](https://news.ycombinator.com)
+
 [Usability](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html)
+
 [Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
+
 [Performance](https://www.slideshare.net/ianmcdonald/non-functional-performance-requirements-v01)
+
 [Performance](http://istqbexamcertification.com/what-is-non-functional-testing-testing-of-software-product-characteristics/)
+
 [Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
 
 ##### F. Overview
