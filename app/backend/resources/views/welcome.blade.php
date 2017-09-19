@@ -70,6 +70,7 @@
                 <div class="title m-b-md">
                     Welcome to Hacker News
                 </div>
+                <p>Ismail Cam, Mazlum D. Sert, Mert Turan, Mustafa, Kristijan Krsteski</p>
             </div>
         </div>
     </body>
