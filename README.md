@@ -55,7 +55,8 @@ __Success Criteria__ - A documented inventory of current requirements and functi
 *Mangler*
 
 ##### E. References
-*Mangler*
+* [Hacker News](https://news.ycombinator.com)
+* [Testablerequirements](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
 
 ##### F. Overview
 *Mangler*
