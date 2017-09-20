@@ -156,7 +156,13 @@ The key component to any implementation process is testing. We will gradually te
 We will keep a close relationship with vendors to fix problems as they appear, problems such as deadlines or going over budget. 
 
 ###### f. Interface
-*Mangler*
+The system will have three different interfaces:
+
+* User interfaces - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system. 
+
+* Communication interfaces - the system shall use the HTTP protocol for communication over the internet. 
+
+* Application Programming Interface (API) - External programs shall be able to publish posts and comments to the system. 
 
 ###### g. Packaging
 *Mangler*
