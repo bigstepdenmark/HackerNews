@@ -62,7 +62,7 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 |API     | Application Programming Interface|        |
 
 ##### E. References
-<<<<<<< HEAD
+
 [Scope of the system](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
 
 [Hacker News](https://news.ycombinator.com)
@@ -76,10 +76,11 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 [Performance](http://istqbexamcertification.com/what-is-non-functional-testing-testing-of-software-product-characteristics/)
 
 [Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
-=======
-* [Hacker News](https://news.ycombinator.com)
-* [Testablerequirements](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
->>>>>>> 2f1f23605ee073a52aabf332a2d83b92b34f9b9d
+
+[Hacker News](https://news.ycombinator.com)
+
+[Testablerequirements](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
+
 
 ##### F. Overview
 *Mangler*
