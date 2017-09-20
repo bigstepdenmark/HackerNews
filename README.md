@@ -168,8 +168,7 @@ The system will have three different interfaces:
 *Mangler*
 
 ###### h. Legal
-*Mangler*
-
+The system should display disclaimers, copyright and trademarks (DMCA).
 
 ##### D. Systemmodels
 
