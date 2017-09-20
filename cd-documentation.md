@@ -18,3 +18,7 @@ Because we are going to use the language PHP with the Laravel 5 framework, it wa
  - Travis CI trigs the push and runs the tests.
  - Then Forge is trigged by Travis CI and deploy the changes to the remote server.
 
+ ---
+
+![CD](systemmodels/CDflow.png)
+
