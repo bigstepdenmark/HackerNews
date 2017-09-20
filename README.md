@@ -41,7 +41,7 @@ Another important part of the system is users can use an API that we have build,
 ##### B. Scope of the system
 The scope of the system is making sure that we have all the requirements done and implemented, and also to make sure that it is a clone of the current system. We will also need a database, for where there can be stored data. 
 
-There will also be an API where a user can use the API to post whatever storie the user wants to post. A server is needed where the database and the API will be located, so the public can access it. 
+There will also be an API where a user can use the API to post whatever stories the user wants to post. A server is needed where the database and the API will be located, so the public can access it. 
 
 We have an idea about, that there will an _buffer mechanism_ between our system and the simulator, the reason for that is if the system we have build goes down for some reason and there some sort of transaction going with some important data then that can be stored, and as soon as the system has the right state the transaction will be successful.
 
@@ -55,7 +55,11 @@ A documented inventory of current requirements and functionality including non-f
 Because of the tight scheduling and , we have made a team contract to ensure that everybody meets on time and every deadline is meet, if these team requirements are not respected there will consequences. In worst case scenario the individuel will be thrown out of the group.  
 
 ##### D. Definitions, acronyms, and abbreviations
-*Mangler*
+| Acronyms     | Definitions |
+| ---      | ---       |
+| FAQ | Frequently Asked Questions         |
+|DMCA     | Digital Millennium Copyright Act|        |
+|API     | Application Programming Interface|        |
 
 ##### E. References
 [Scope of the system](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
