@@ -147,7 +147,13 @@ The system should be able to work under stress, meaning that there should not oc
 The users will have the support of an _REST-API_, to read different kind of data. The system that we are building has different kind of technical support, user will be able to read _guidelines_, _FAQ(Frequently Asked Quistions)_, _Support_, _Contact_ and a _Searchbar_. Other services we planning on making for us as a team, are different kind of documentations, this one being one of them, and a test documentation(test cases, test plans). We will be using an framework to build the system, that will be great service for us as developer.  
 
 ###### e. Implementation
-*Mangler*
+In a software context, implementation is all the post-sale processes involved in operating the software properly in its live environment. The implementation process will be designed with the end user in mind, because the participation of users in the design and implementation of the system, will serve their business objectives and reflect their priorities.
+
+We will start by negotiating a contract with a vendor with defined set of guidelines, deadlines and a payment schedule for the entire implementation process. Contract requirements will include system performance criteria, issue penalties and delays in the implementation process, documentation, training/tutorial and vendor support in case of problems when the system goes live. We may need a person with experience in project management as well as in the technical aspects of the technology, to oversee the implementation process. 
+
+The key component to any implementation process is testing. We will gradually test the new system until it is ready to fully go live. We will be picking out glitches, shortcomings or problems of the system to further help the implementation process. After the testing phase, we will focus on educating/training users about the new system and how to use it before the system is ready to go live. When the system is about to go live, we will review/revisit the entire implementation process and verify that everything is complete. 
+
+We will keep a close relationship with vendors to fix problems as they appear, problems such as deadlines or going over budget. 
 
 ###### f. Interface
 *Mangler*
