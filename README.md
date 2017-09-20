@@ -34,11 +34,11 @@
 ### 1. Introduction
 In this section we will try to establish the essentials, for the system and an lead-in to what some of the most fundamental functionality that has to be present in the system. 
 
-##### A. Purpose of the system
+##### 1A. Purpose of the system
 To enable discussions and opinions for users by letting them create stories, which others may comment on, and if they choose to, up-vote/down-vote. 
 Another important part of the system is users can use an API that we have build, to post a specific storie from their website, an again people will be able to comment on these specific stories.  
 
-##### B. Scope of the system
+##### 1B. Scope of the system
 The scope of the system is making sure that we have all the requirements done and implemented, and also to make sure that it is a clone of the current system. We will also need a database, for where there can be stored data. 
 
 There will also be an API where a user can use the API to post whatever stories the user wants to post. A server is needed where the database and the API will be located, so the public can access it. 
@@ -47,21 +47,21 @@ We have an idea about, that there will an _buffer mechanism_ between our system 
 
 There will be no changes in the front-end/design, meaning that the design of the front-end will be exactly be the same as the current front-end. 
 
-##### C. Objectives and success criteria of the project
+##### 1C. Objectives and success criteria of the project
 Objectives & Success Criteria is to develop a clear understanding at a high-level how functionality is performed in the current system (HackerNews). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”. One very important objective is that team members are working together and, there is an continouous communication so that there is provided trust between developers, concerns to be addressed, and ideas to be discussed. 
 
 A documented inventory of current requirements and functionality including non-functional requirements. It also important that there is an functioning team, where the level of productivity is high, therefore there are rolles giving to each member of the team and these roles has to be taken very seriously. The team work is a key factor to get the project up and running. 
 
 Because of the tight scheduling and , we have made a team contract to ensure that everybody meets on time and every deadline is meet, if these team requirements are not respected there will consequences. In worst case scenario the individuel will be thrown out of the group.  
 
-##### D. Definitions, acronyms, and abbreviations
+##### 1D. Definitions, acronyms, and abbreviations
 | Acronyms     | Definitions |
 | ---      | ---       |
 | FAQ | Frequently Asked Questions         |
 |DMCA     | Digital Millennium Copyright Act|        |
 |API     | Application Programming Interface|        |
 
-##### E. References
+##### 1E. References
 
 [Scope of the system](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
 
@@ -82,7 +82,7 @@ Because of the tight scheduling and , we have made a team contract to ensure tha
 [Testablerequirements](http://www.testablerequirements.com/testablerequirements/def_sys_scope_bound.htm)
 
 
-##### F. Overview
+##### 1F. Overview
 *Mangler*
 
 ---
@@ -105,10 +105,10 @@ As an additional service Hacker News also comes with an API, which gives users f
 ### 3. Proposed system
 The proposed system is an exact clone of the current, meaning that it is the exact same functionality and design.  
 
-##### A. Overview
+##### 3A. Overview
 The proposed system provides the same functionality as the current system, with minor improvements such as design and usability.
 
-##### B. Functional requirements
+##### 3B. Functional requirements
 1. Register – People have an option to register themselves as users.
 2. Post stories – Registered users have the option to post stories.
 3. Comments – Allows registered users, to write comments on stories, and other’s comments.
@@ -140,21 +140,21 @@ The proposed system provides the same functionality as the current system, with 
 29. Forgot password functionality. 
 
 
-##### C. Nonfunctional requirements
+##### 3C. Nonfunctional requirements
 
-###### a. Usability
+###### 3Ca. Usability
 The usability is more has to be more or less the same as the current system. Meaning that the button convention should be the same, and the responds time(in milliseconds) for the buttons should be the same, etc. _Usability testing_ would be an effeicient way to ensure that our system works as the current system. 
 
-###### b. Reliability
+###### 3Cb. Reliability
 We are ensuring that there is no data loss, if the system for some reason is down. We will plant an _buffer mechanism_, between the system and the simulator ensuring that there will not be any data loss. We can also do some functional testing, to ensure that some predictable failure or human errors is not happening, in that way the system will be more Reliable. 
 
-###### c. Performance
+###### 3Cc. Performance
 The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter, we can do whats called a stress test. Stress test could be done at stress periods, in these stress periods(months) there can special days where the system is extra busy, meaning there is extra load time. We can also compare the current system with the new system, to find out which one of them er performing best, or we can measure what part of the system is performing badly.  
 
-###### d. Supportability
+###### 3Cd. Supportability
 The users will have the support of an _REST-API_, to read different kind of data. The system that we are building has different kind of technical support, user will be able to read _guidelines_, _FAQ(Frequently Asked Quistions)_, _Support_, _Contact_ and a _Searchbar_. Other services we planning on making for us as a team, are different kind of documentations, this one being one of them, and a test documentation(test cases, test plans). We will be using an framework to build the system, that will be great service for us as developer.  
 
-###### e. Implementation
+###### 3Ce. Implementation
 In a software context, implementation is all the post-sale processes involved in operating the software properly in its live environment. The implementation process will be designed with the end user in mind, because the participation of users in the design and implementation of the system, will serve their business objectives and reflect their priorities.
 
 We will start by negotiating a contract with a vendor with defined set of guidelines, deadlines and a payment schedule for the entire implementation process. Contract requirements will include system performance criteria, issue penalties and delays in the implementation process, documentation, training/tutorial and vendor support in case of problems when the system goes live. We may need a person with experience in project management as well as in the technical aspects of the technology, to oversee the implementation process. 
@@ -163,7 +163,7 @@ The key component to any implementation process is testing. We will gradually te
 
 We will keep a close relationship with vendors to fix problems as they appear, problems such as deadlines or going over budget. 
 
-###### f. Interface
+###### 3Cf. Interface
 The system will have three different interfaces:
 
 * User interfaces - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system. 
@@ -172,16 +172,16 @@ The system will have three different interfaces:
 
 * Application Programming Interface (API) - External programs shall be able to publish posts and comments to the system. 
 
-###### g. Packaging
+###### 3Cg. Packaging
 *Mangler*
 
-###### h. Legal
+###### 3Ch. Legal
 The system should display disclaimers, copyright and trademarks (DMCA).
 
-##### D. Systemmodels
+##### 3D. Systemmodels
 *Mangler*
-###### a. Scenarios
+###### 3Da. Scenarios
 *Mangler*
 
-###### b. Use case model
+###### 3Db. Use case model
 ![Use Case](systemmodels/usecase.png)
