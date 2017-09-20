@@ -48,7 +48,7 @@ We have an idea about, that there will an _buffer mechanism_ between our system 
 There will be no changes in the front-end/design, meaning that the design of the front-end will be exactly be the same as the current front-end. 
 
 ##### C. Objectives and success criteria of the project
-__Objectives__&__Success Criteria__  -  is to develop a clear understanding at a high-level how functionality is performed in the current system (HackerNews). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”. One very important objective is that team members are working together and, there is an continouous communication so that there is provided trust between developers, concerns to be addressed, and ideas to be discussed. 
+Objectives & Success Criteria is to develop a clear understanding at a high-level how functionality is performed in the current system (HackerNews). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”. One very important objective is that team members are working together and, there is an continouous communication so that there is provided trust between developers, concerns to be addressed, and ideas to be discussed. 
 
 A documented inventory of current requirements and functionality including non-functional requirements. It also important that there is an functioning team, where the level of productivity is high, therefore there are rolles giving to each member of the team and these roles has to be taken very seriously. The team work is a key factor to get the project up and running. 
 
@@ -92,7 +92,8 @@ The current system enables registered users to perform a variety of actions.
 * Post stories
 * Comment on existing stories
 * Up/down vote stories
-																*Description of the current system*
+
+__Description of the current system__
 Hacker News is a news forum, where you can publish and read stories from other websites. The stories and comments on Hacker News can only be published by registered users.
 Registered users can also up and down vote stories on Hacker News, however it's required to have at least 500 Karma points before user can down-vote stories. Karma points is calculated using up-votes, which came from other users. All down-votes from users can be marked as SPAM.
 
