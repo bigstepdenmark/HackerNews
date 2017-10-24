@@ -48,6 +48,8 @@ Scenario
 4. Arnold receives an Error Message that says “Username or Password incorrect, please try again”
 5. Use case ends with Failure
 
+---
+
 #### Signup
 
 ##### Signup – Succeed
@@ -98,6 +100,8 @@ Scenario
 3. Arnold enters a username and password, and clicks on the “Create Account” button
 4. Arnold receives an Error Message, that the username is already taken
 5. Use case ends with Failure
+
+---
 
 #### Comment
 
@@ -165,6 +169,8 @@ Scenario
 3. Arnold is prompted to sign up or login
 4. Use case ends with Failure
 
+---
+
 #### Post
 
 ##### Create Post – Validation Succeed
@@ -220,6 +226,8 @@ Scenario
 
 ![Text](images/LoginDiagram.png)
 
+---
+
 ##### Register - Subsystem Sequence Diagram
 * Name - Register
 * Scope - System under design (SuD)
@@ -238,6 +246,8 @@ Scenario
 * Special Requirements – none
 
 ![Text](images/RegisterDiagram.png)
+
+---
 
 ##### Publish a story - Subsystem Sequence Diagram
 * Name - Publish a Story 
@@ -258,6 +268,8 @@ Scenario
 
 ![Text](images/PublishDiagram.png)
 
+---
+
 ##### Comment a story - Subsystem Sequence Diagram
 * Name - Comment a Story 
 * Scope - System under design (SuD)
@@ -276,6 +288,8 @@ Scenario
 * Special Requirements – none
 
 ![Text](images/CommentDiagram.png)
+
+---
 
 ##### Reply a comment - Subsystem Sequence Diagram
 * Name - Reply a comment 
@@ -298,6 +312,8 @@ Scenario
 
 ![Text](images/ReplyDiagram.png)
 
+---
+
 ##### Read a story - Subsystem Sequence Diagram
 * Name – Read a story
 * Scope - System under design (SuD)
@@ -314,6 +330,8 @@ Scenario
 * Special Requirements – redirect requires url
 
 ![Text](images/ReadDiagram.png)
+
+---
 
 ##### Up-vote a story - Subsystem Sequence Diagram
 * Name – Up-vote a story
@@ -332,6 +350,8 @@ Scenario
 
 ![Text](images/UpvoteDiagram.png)
 
+---
+
 ##### Down-vote a story - Subsystem Sequence Diagram
 * Name – Down-vote a story
 * Scope - System under design (SuD)
@@ -348,6 +368,8 @@ Scenario
 * Special Requirements – none
 
 ![Text](images/DownvoteDiagra.png)
+
+---
 
 ##### Communication Sequence Diagram
 ![Text](images/CommunicationSequence.png)
