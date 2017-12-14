@@ -17,7 +17,10 @@ You can think of Laravel Forge as, administration UI on top of in our case Digit
 + Choose name, serversize etc. In Laravel Forge.
 + Fill your github repo. 
 + Now the project your want deploy using Laravel Forge clone that project so you have it locally, the same project from the previous step. 
-+ Enable quick deploy.    
++ Enable quick deploy.
++ Now change something in your project, to see the magic happen. 
++ Now, git add, git commit, & git push. 
++ You can now witness it has been deployed! Easy!    
 
 **Travis CI:** With the help of Travis, we do continuous test for our application and trig our deployment service.    
 
