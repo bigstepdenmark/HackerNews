@@ -1,7 +1,7 @@
 # Continuous CI and CD Documentation
 
 MVP Application: [http://165.227.136.184](http://165.227.136.184)
-joe
+
 ---
 
 Because we are going to use the language PHP with the Laravel 5 framework, it was obvious to use  **Laravel Forge** tool for Continuous Deployment, and **Travis CI** for Continuous Integration.
