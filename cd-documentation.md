@@ -6,7 +6,7 @@ MVP Application: [http://165.227.136.184](http://165.227.136.184)
 
 Because we are going to use the language PHP with the Laravel 5 framework, it was obvious to use  **Laravel Forge** tool for Continuous Deployment, and **Travis CI** for Continuous Integration.
 
-**Laravel Forge:** The reason why we are using forge, is because forge is especially build for Laravel continuous deployment. You can think of Laravel Forge as, administration UI on top of Digital Ocean.
+**Laravel Forge:** The reason why we are using forge, is because forge is especially build for Laravel continuous deployment. You can think of Laravel Forge as, administration UI on top of in our case Digital Ocean.
 
 
 **Travis CI:** With the help of Travis, we do continuous test for our application and trig our deployment service.    
