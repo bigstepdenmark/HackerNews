@@ -20,7 +20,9 @@ You can think of Laravel Forge as, administration UI on top of in our case Digit
 + Enable quick deploy.
 + Now change something in your project, to see the magic happen. 
 + Now, git add, git commit, & git push. 
-+ You can now witness it has been deployed! Easy!    
++ You can now witness it has been deployed! Easy!
+
+You could also manually deploy your changes, by doing an SSH to your server and run a git pull. Or just click **deploy now** button.       
 
 **Travis CI:** With the help of Travis, we do continuous test for our application and trig our deployment service.    
 
