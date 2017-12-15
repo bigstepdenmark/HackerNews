@@ -6,6 +6,8 @@ MVP Application: [http://165.227.136.184](http://165.227.136.184)
 
 Because we are going to use the language PHP with the Laravel 5 framework, it was obvious to use  **Laravel Forge** tool for Continuous Deployment, and **Travis CI** for Continuous Integration.
 
+**Travis CI:** With the help of Travis, we do continuous test for our application and trig our deployment service.   
+
 **Laravel Forge:** The reason why we are using forge, is because forge is especially build for Laravel continuous deployment. 
 You can think of Laravel Forge as, administration UI on top of in our case Digital Ocean. Where we not required to learn server administration skills, laravel forge automates deployment! It's important to note that laravel forge does not provide the servers, it's a UI that simplyfies the tasks. 
 
@@ -23,10 +25,10 @@ You can think of Laravel Forge as, administration UI on top of in our case Digit
 + You can now witness it has been deployed! Easy!
 
 You could also deploy your changes manually. By doing an SSH to your server and run a git pull. Or just click **deploy now** button.       
+ 
+**Envoyer:** Envoyer is a **zero-down-time deployer** for Laravel, generely for PHP. Envoyer gives os additional control over our deployments such as, **zero downtime during deployments**, provides **monitoring**, **health checks** and very **easy rollbacks** if your changes to your application goes wrong, or if you found some bug. 
 
-**Travis CI:** With the help of Travis, we do continuous test for our application and trig our deployment service.    
-
-**Envoyer:** Envoyer is a **zero-down-time deployer** for Laravel, generely for PHP.   
+In our hackernews system, we have combined **Laravel Forge** and **Envoyer**. We use **Laravel Forge** to manage our server, and using **Envoyer** to achieve **zero-downtime deployments**.     
 
 **The CD chain steps:**
 
