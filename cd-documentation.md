@@ -26,6 +26,7 @@ You could also deploy your changes manually. By doing an SSH to your server and 
 
 **Travis CI:** With the help of Travis, we do continuous test for our application and trig our deployment service.    
 
+**Envoyer:** Envoyer is a **zero-down-time deployer** for Laravel, generely for PHP.   
 
 **The CD chain steps:**
 
